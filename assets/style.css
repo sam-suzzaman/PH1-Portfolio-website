@@ -141,33 +141,33 @@ body {
 }
 
 /* ============================
-    03. Service Section CSS 
+    03. Learning Section CSS 
 ===============================*/
-#service-wrapper {
+#learning-wrapper {
   padding: 5rem 0;
 }
-.service-container {
+.learning-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.service-w-65 {
+.learning-w-65 {
   width: 65%;
 }
 
-.service-w-30 {
+.learning-w-30 {
   width: 30%;
 }
 
-.service-title {
+.learning-title {
   font-size: 32px;
   color: #333333;
   font-weight: 700;
   line-height: 40px;
 }
 
-.service-info {
+.learning-info {
   font-size: 15px;
   font-weight: 400;
   color: #3e3e3e;
@@ -175,7 +175,7 @@ body {
   margin: 20px 0;
 }
 
-.service-img {
+.learning-img {
   width: 100%;
 }
 
