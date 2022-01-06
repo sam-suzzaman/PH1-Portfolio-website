@@ -1,0 +1,134 @@
+/* ============================
+      00. Common CSS 
+===============================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+
+/* For Common Buttons */
+.btn {
+  background-color: #ff5959;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.sec-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* for section title */
+.sec-title {
+  text-align: center;
+  margin: 2rem 0;
+}
+.sec-title .title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #13103a;
+}
+.sec-title .title .fancy-text {
+  color: #ffad5a;
+}
+/* ============================
+      01. Hero Section CSS 
+===============================*/
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-left-part {
+  padding-top: 6rem;
+  width: 50%;
+}
+.hero-right-part {
+  width: 35%;
+}
+
+.hero-left-title {
+  font-weight: 500;
+  font-size: 60px;
+  border-left: 4px solid #ff5959;
+  padding-left: 15px;
+}
+.hero-left-title > span {
+  color: #ffad5a;
+}
+
+.hero-left-info {
+  font-size: 17px;
+  line-height: 28px;
+  color: #3e3e3e;
+  font-weight: 400;
+  margin: 25px 0;
+}
+
+.hero-left-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #434343;
+  margin-top: 35px;
+}
+
+.hero-right-part img {
+  width: 100%;
+}
+
+/* ============================
+    02. My Mission Section CSS 
+===============================*/
+.mission-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.mission-card {
+  padding: 2rem 1.5rem;
+  background-color: #fff;
+  border-radius: 25px;
+  width: 31%;
+  box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.2);
+}
+.mission-card > img {
+  width: 30%;
+}
+
+.mission-card .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+.mission-card .card-info {
+  font-size: 14px;
+  font-weight: 400;
+  color: #424242;
+  line-height: 24px;
+}
+
+.mission-card:nth-child(1) {
+  background-color: #4f9da61a;
+}
+.mission-card:nth-child(2) {
+  background-color: #ff59591a;
+}
+.mission-card:nth-child(3) {
+  background-color: #fff4d6;
+}
