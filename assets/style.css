@@ -15,6 +15,7 @@ body {
 
 /* For Common Buttons */
 .btn {
+  display: inline-block;
   background-color: #ff5959;
   text-transform: capitalize;
   color: #fff;
@@ -131,4 +132,66 @@ body {
 }
 .mission-card:nth-child(3) {
   background-color: #fff4d6;
+}
+
+/* ============================
+    03. Service Section CSS 
+===============================*/
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-w-65 {
+  width: 65%;
+}
+
+.service-w-30 {
+  width: 30%;
+}
+
+.service-title {
+  font-size: 32px;
+  color: #333333;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.service-info {
+  font-size: 15px;
+  font-weight: 400;
+  color: #3e3e3e;
+  line-height: 24px;
+  margin: 20px 0;
+}
+
+.service-img {
+  width: 100%;
+}
+
+/* ============================
+    05. Footer Section CSS 
+===============================*/
+
+.footer {
+  background-color: #0b0d17;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 36px;
+  color: #fff;
+  text-transform: capitalize;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.footer-logo .f-fancy-tag {
+  color: #ff5959;
+}
+.f-subtitle {
+  font-size: 12px;
+  color: #d9dbe1;
+  font-weight: 300;
 }
